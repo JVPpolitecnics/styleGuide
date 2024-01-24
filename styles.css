@@ -1,0 +1,74 @@
+@font-face {
+    font-family: jockey;
+    src: url(fonts/JockeyOne-Regular.ttf);
+}
+@font-face {
+    font-family: noto;
+    src: url(fonts/NotoSans.ttf);
+}
+body{
+    background-color: #060D0F;    
+}
+h1{
+    color: #EBEBD3;
+    font-size: 96px;
+font-family: jockey;
+text-align: center;
+}
+h2{
+  font-family: noto;
+    color: #EBEBD3;
+    font-size: 17px;
+    font-weight: 1500;
+}
+h3{
+  font-family: noto;  
+    color: #EBEBD3;
+    font-size: 16px;
+    font-weight: 100;
+}
+.button {
+    font-family: noto;
+    font-size: 16px;
+    color: #EBEBD3;
+    border: none;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 21px;
+    
+}
+.logo{
+  height: 55%;
+}
+  .colorDisplay{
+    margin: 5%;
+    position: relative;
+    height: 100px;
+    width: 100px;
+    border-radius: 21px;
+    float: left;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+  #accentColor{
+    background-color: #5463E7;
+  }
+  #textColor{
+    background-color: #EBEBD3;
+  }
+  #callToActionColor{
+    background-color: #40798C;
+  }
+  #backgroundColor{
+    background-color: transparent;
+    border: 2px solid black;
+  }
+  #lettersColor{
+    background-color: transparent;
+    border: 8px solid #EBEBD3;
+  }
